@@ -1,0 +1,24 @@
+.aside {
+  margin: 0;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 18px;
+  color: black;
+  height: 50px;
+  line-height: 50px;
+  background-color:lighten(lightgray, 10);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkActive {
+  color: blue;
+  cursor: default;
+}

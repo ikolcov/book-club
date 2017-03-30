@@ -1,0 +1,51 @@
+$width: 600px;
+
+.modalContent {
+  position: absolute;
+  display: none;
+  top: 150px;
+  left: 50%;
+  margin: 0 auto;
+  padding: 30px 10px;
+  height: 350px;
+  width: $width;
+  margin-left: -$width/2;
+  background-color: #fff;
+  box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  border-radius: 15px;
+
+  input {
+    box-sizing: border-box;
+    display: block;
+    width: 600px;
+    height: 30px;
+    margin: 10px 0;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    padding: 5px;
+    display: block;
+    height: 150px;
+    width: 600px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+
+.modalContentShow {
+  display: block;
+}
+
+.modalContentClose {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}

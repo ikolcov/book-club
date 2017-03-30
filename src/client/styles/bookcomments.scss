@@ -1,0 +1,35 @@
+.comments {
+  font-size: 12px;
+  width: 600px;
+  min-height: 150px;
+  margin: 0 auto;
+
+  textarea {
+    margin: 5px 0;
+    box-sizing: border-box;
+    height: 70px;
+    width: 600px;
+  }
+}
+
+.comment {
+  margin: 25px 0;
+}
+
+.header {
+  text-decoration: underline;
+
+  button {
+    display: inline-block;
+    line-height: 10px;
+    font-size: 10px;
+    height: 10px;
+    box-sizing: content-box;
+    vertical-align: top;
+    margin: 0 5px;
+  }
+}
+
+.content {
+  text-align: justify;
+}

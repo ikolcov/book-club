@@ -1,0 +1,13 @@
+.bookList {
+  margin: 20px auto;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+.bookListRow {
+  border: 1px solid lightgray;
+
+  a {
+    color: inherit;
+  }
+}
