@@ -3,8 +3,6 @@ import { Link, IndexLink } from 'react-router';
 import Auth from '../modules/Auth';
 import styles from '../styles/aside.scss';
 
-const giveMeError;
-
 const Aside = () => {
   if (Auth.isUserAuthenticated()) {
     return (

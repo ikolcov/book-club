@@ -8,8 +8,6 @@ const path = require('path');
 const serve = require('koa-static');
 const view = require('koa-view');
 
-const giveMeError;
-
 const app = new Koa();
 const router = new Router();
 
