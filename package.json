@@ -4,7 +4,7 @@
   "description": "",
   "main": "dev.js",
   "scripts": {
-    "start": "rimraf ./dist/server && babel -d ./dist/server ./src/server -s && webpack -p && node dist/server/index.js",
+    "start": "rimraf ./dist/server && babel -d ./dist/server ./src/server -s && node dist/server/index.js",
     "dev": "nodemon --use_strict dev.js",
     "dev:bundle": "webpack --watch",
     "lint:js": "eslint ./src --ext js,jsx",
@@ -27,9 +27,6 @@
     "koa-view": "^2.0.0",
     "mongoose": "^4.8.5",
     "passport-local": "^1.0.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-router": "^3.0.2",
     "rimraf": "^2.6.1",
     "validator": "^7.0.0"
   },
@@ -52,6 +49,9 @@
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0",
     "pre-commit": "^1.2.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "3",
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.2",
     "webpack": "^2.2.1"
