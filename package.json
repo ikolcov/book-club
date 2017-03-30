@@ -75,9 +75,6 @@
   },
   "babel": {
     "presets": [
-      "react",
-      "es2015",
-      "stage-2",
       [
         "env",
         {
@@ -94,6 +91,6 @@
   ],
   "pre-commit": "lint-staged",
   "lint-staged": {
-    "*.{js,jsx}": "eslint"
+    "src/**/.{js,jsx}": "eslint"
   }
 }
